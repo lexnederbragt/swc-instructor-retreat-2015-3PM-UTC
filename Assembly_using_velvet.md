@@ -87,11 +87,11 @@ Find a value of *k* (between 21 and 127) to start with, and record your choice i
 Program|Options|Explanation
 -------|-------|-------------
 velveth||Build the Velvet index file|
-|foldername|use this name for the results folder
-|value\_of\_k|use k-mers of this size
-|-short|short reads (as opposed to long, Sanger-like reads)
-|-separate|read1 and read2 are in separate files
-|-fastq|read type is fastq
+||foldername|use this name for the results folder
+||value\_of\_k|use k-mers of this size
+||-short|short reads (as opposed to long, Sanger-like reads)
+||-separate|read1 and read2 are in separate files
+||-fastq|read type is fastq
 
 Build the index as follows:
 
@@ -149,6 +149,9 @@ Log your results in this google spreadsheet: <https://bit.ly/SWDCretreatVelvet>
 
 **We will discuss the results together and determine *the optimal* k-mer for this dataset.**
 
+
+----------
+Part of the assembly module developed for the course "High Throughput Sequencing technologies and bioinformatics analysis" at the University of Oslo. See the [2015 course material](http://inf-biox121.readthedocs.org/en/2015/Assembly/).
 
 Source of the reads: [http://www.illumina.com/science/data_library.ilmn](http://www.illumina.com/science/data_library.ilmn), random subsampling using seqtk [https://github.com/lh3/seqtk](https://github.com/lh3/seqtk)
 
