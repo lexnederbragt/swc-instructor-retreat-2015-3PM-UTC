@@ -11,10 +11,10 @@ This material starts from an Amazon EC2 instance. You can also install velvet on
 
 ###Installing Velvet on Amazon EC2
 
-Start an EC instance at (<https://aws.amazon.com>), kake sure to choose the **m4.xlarge** image with ubuntu 14.04. If you have never done this you could follow the instructions here: <http://angus.readthedocs.org/en/2015/amazon/start-up-an-ec2-instance.html>. You will need to set up a key pair and be able to log into the the instance through ssh.
+Start an EC instance at (<https://aws.amazon.com>), make sure to choose the **m4.xlarge** image with ubuntu 14.04. If you have never done this you could follow the instructions here: <http://angus.readthedocs.org/en/2015/amazon/start-up-an-ec2-instance.html>. You will need to set up a key pair and be able to log into the the instance through ssh.
 
 ```
-ssh -i Amazon.pem ubuntu@ubuntu@ec2-???-???-???-???.compute-1.amazonaws.com
+ssh -i Amazon.pem ubuntu@ec2-???-???-???-???.compute-1.amazonaws.com
 ```
 
 Update the base software and install some needed software:
